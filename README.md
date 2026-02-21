@@ -22,17 +22,17 @@ The final score is a weighted average of the three sub-function evaluations desc
 The function decomposes the evaluation into three distinct dimensions of the visual stage, each handled by a dedicated sub-function:
 
 ### 1. Lighting Effectiveness on the Subject
-[{{ .Task0 }}](https://github.com/{{ .Owner }}/{{ .Task0 }})
+[cat-lighting-effectiveness](https://github.com/ObjectiveAI-claude-code-1/cat-lighting-effectiveness)
 
 Examines how the light falls on the cat and whether it reveals or obscures the cat's features, texture, and form. Considers visibility of the face and eyes, detail in the fur, and dimensionality of the body. Penalizes deep shadows that swallow the subject, harsh overexposure that washes out detail, extreme backlighting that creates silhouettes, and unnatural color casts. The standard is functional lighting — not studio perfection, but light that does its job of making the cat visible and comfortable to look at.
 
 ### 2. Background Cleanliness and Distraction Level
-[{{ .Task1 }}](https://github.com/{{ .Owner }}/{{ .Task1 }})
+[cat-photo-background-cleanliness](https://github.com/ObjectiveAI-claude-code-1/cat-photo-background-cleanliness)
 
 Examines the space surrounding the cat and whether it remains visually subordinate to the subject. A clean background is not necessarily empty — it is one that occupies space without demanding attention. Penalizes cluttered surfaces, busy scenes with competing visual elements, and aggressive patterns that merge with the cat's form. The evaluation measures degree, not perfection: a moderately busy background where the cat still reads clearly as subject is acceptable; a chaotic background where the cat disappears into visual noise is a failure.
 
 ### 3. Overall Harmony Between Cat and Environment
-[{{ .Task2 }}](https://github.com/{{ .Owner }}/{{ .Task2 }})
+[cat-environment-harmony](https://github.com/ObjectiveAI-claude-code-1/cat-environment-harmony)
 
 Steps back from individual assessments to examine the photograph as a unified visual experience. Evaluates whether light and environment come together to create a coherent, settled feeling — whether colors complement rather than clash, the mood feels consistent rather than contradictory, and the cat looks like it belongs in its space. Identifies disharmony from mismatched tones, overwhelming color palettes, or fragmented visual registers where different elements seem to belong to different photographs.
 
