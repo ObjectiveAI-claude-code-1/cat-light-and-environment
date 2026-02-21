@@ -1,11 +1,16 @@
 {
   "type": "scalar.function",
+  "input_schema": {
+    "type": "image",
+    "description": "A cat photograph to evaluate for light and environment — whether the lighting reveals the cat effectively and the background supports the subject without distraction."
+  },
   "tasks": [
     {
-      "type": "scalar.function",
-      "owner": "ObjectiveAI-claude-code-1",
-      "repository": "rate-cat-photo-lighting",
-      "commit": "39bda882d6c8d347d65a3924c4588b513cafe5bb",
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for lighting effectiveness — whether the light reveals the cat's features, fur, and form clearly and naturally."
+      },
       "skip": null,
       "input": {
         "$jmespath": "input"
@@ -15,10 +20,11 @@
       }
     },
     {
-      "type": "scalar.function",
-      "owner": "ObjectiveAI-claude-code-1",
-      "repository": "cat-background-cleanliness",
-      "commit": "6c8c106a874820e300da6fd718184a82105368ec",
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for background cleanliness and distraction level — whether the surrounding space supports the cat as the clear subject or competes with it for the viewer's attention."
+      },
       "skip": null,
       "input": {
         "$jmespath": "input"
@@ -28,10 +34,11 @@
       }
     },
     {
-      "type": "scalar.function",
-      "owner": "ObjectiveAI-claude-code-1",
-      "repository": "cat-visual-harmony",
-      "commit": "b1942afda0e1586a671b8c8296397c299d8ab3de",
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for overall harmony between subject and setting — whether light and environment work together to create a coherent, inviting visual experience."
+      },
       "skip": null,
       "input": {
         "$jmespath": "input"
@@ -41,9 +48,5 @@
       }
     }
   ],
-  "description": "Scores how well a cat photograph's lighting and environment support the subject. Evaluates lighting effectiveness on the cat, background cleanliness and distraction level, and overall visual harmony between subject and setting. Rewards functional light and calm surroundings that let the cat be seen clearly, regardless of setting prestige.",
-  "input_schema": {
-    "type": "image",
-    "description": "A cat photograph to evaluate for light and environment — whether the lighting reveals the cat effectively and the background supports the subject without distraction."
-  }
+  "description": "Scores how well a cat photograph's lighting and environment serve the subject. Evaluates whether light reveals the cat clearly, the background stays calm and non-distracting, and light and setting work together harmoniously. Rewards functional visibility and visual cooperation over beauty or prestige of the setting."
 }
