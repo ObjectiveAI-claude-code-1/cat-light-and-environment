@@ -1,16 +1,11 @@
 {
   "type": "scalar.function",
-  "input_schema": {
-    "type": "image",
-    "description": "A cat photograph to evaluate for light and environment — whether the lighting reveals the cat effectively and the background supports the subject without distraction."
-  },
   "tasks": [
     {
-      "type": "placeholder.scalar.function",
-      "input_schema": {
-        "type": "image",
-        "description": "A cat photograph to evaluate for lighting effectiveness — whether the light reveals the cat's features, texture, and form clearly without overexposure, deep shadow, glare, or unnatural color casts."
-      },
+      "type": "scalar.function",
+      "owner": "ObjectiveAI-claude-code-1",
+      "repository": "cat-lighting-clarity",
+      "commit": "909013f6d34c6f2041d857ee114f9938d83fd578",
       "skip": null,
       "input": {
         "$jmespath": "input"
@@ -20,11 +15,10 @@
       }
     },
     {
-      "type": "placeholder.scalar.function",
-      "input_schema": {
-        "type": "image",
-        "description": "A cat photograph to evaluate for background cleanliness and distraction level — whether the surrounding space supports the cat as the subject or competes with it through clutter, visual noise, or attention-grabbing elements."
-      },
+      "type": "scalar.function",
+      "owner": "ObjectiveAI-claude-code-1",
+      "repository": "background-clarity",
+      "commit": "29a4d5499dc9114b8f294739c62d52e3e15f6157",
       "skip": null,
       "input": {
         "$jmespath": "input"
@@ -48,5 +42,9 @@
       }
     }
   ],
-  "description": "Scores how well a cat photograph's lighting and environment support the cat as a subject. Evaluates lighting effectiveness on the cat's features, background cleanliness and distraction level, and the overall harmony between the cat and its visual surroundings. Rewards clarity and coherence over beauty or prestige."
+  "description": "Scores how well a cat photograph's lighting and environment support the cat as a subject. Evaluates lighting effectiveness on the cat's features, background cleanliness and distraction level, and the overall harmony between the cat and its visual surroundings. Rewards clarity and coherence over beauty or prestige.",
+  "input_schema": {
+    "type": "image",
+    "description": "A cat photograph to evaluate for light and environment — whether the lighting reveals the cat effectively and the background supports the subject without distraction."
+  }
 }

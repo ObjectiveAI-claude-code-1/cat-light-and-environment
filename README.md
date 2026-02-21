@@ -27,17 +27,17 @@ A scalar value between **0** and **1**.
 The function decomposes the evaluation into three qualities that move from the specific to the holistic:
 
 ### 1. Lighting Effectiveness on the Subject
-[`{{ .Task0 }}`](https://github.com/{{ .Owner }}/{{ .Task0 }})
+[`cat-lighting-clarity`](https://github.com/ObjectiveAI-claude-code-1/cat-lighting-clarity)
 
 Can you **see** the cat? This sub-function evaluates whether the light — regardless of source or style — reveals the cat's features clearly. It looks for legible fur texture, visible facial structure, eye depth, and body contour. It penalizes harsh overexposure that washes out detail, deep shadows that absorb the cat into darkness, unnatural color casts, and glare or hot spots that pull focus. A humble kitchen light that evenly illuminates the cat scores well. A dramatic sunset that turns the cat into a silhouette does not. Effectiveness is measured by visibility and clarity, not beauty or mood.
 
 ### 2. Background Cleanliness and Distraction Level
-[`{{ .Task1 }}`](https://github.com/{{ .Owner }}/{{ .Task1 }})
+[`background-clarity`](https://github.com/ObjectiveAI-claude-code-1/background-clarity)
 
 Will you **look at** the cat? This sub-function evaluates whether the non-subject elements in the photograph recede to let the cat command attention or compete with it. A clean background is not necessarily empty — a couch with a few pillows or a garden with soft greenery can be perfectly clean. What matters is whether visual noise fragments the viewer's attention: cluttered objects, competing colors, busy patterns, text on packaging, other animals partially in frame, or bright elements that rival the cat. The question is whether the space acts as a supportive setting or a rival subject.
 
 ### 3. Overall Harmony Between Cat and Environment
-[`{{ .Task2 }}`](https://github.com/{{ .Owner }}/{{ .Task2 }})
+[`{{ .Task2 }}`](https://github.com/ObjectiveAI-claude-code-1/{{ .Task2 }})
 
 Does the cat **belong** in this visual world? This sub-function captures the holistic unity of the image — something neither lighting nor background can express alone. It evaluates whether light, space, color, and subject participate in one coherent image rather than existing in tension. A cat curled on a warm blanket in soft lamplight feels harmonious. A cat lit by harsh flash in an otherwise dark room feels jarring. This quality rewards coherence: the quiet agreement between all parts of the image that everything exists to let the viewer see the cat.
 
