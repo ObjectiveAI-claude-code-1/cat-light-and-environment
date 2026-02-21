@@ -26,17 +26,17 @@ The final score is a weighted average across three sub-function evaluations, eac
 ### 1. Lighting Effectiveness on the Subject
 Does the light let the viewer see the cat? This sub-function scores whether the cat's key features — face, eyes, fur texture, color, and body form — are visible and legible. It penalizes overexposure that washes out detail, underexposure that buries the cat in shadow, extreme contrast that fractures the subject, and unnatural color casts that distort appearance. It rewards any light source — humble or dramatic — that functionally reveals the cat.
 
-- Sub-function: [{{ .Task0 }}](https://github.com/{{ .Owner }}/{{ .Task0 }})
+- Sub-function: [cat-subject-lighting-score](https://github.com/ObjectiveAI-claude-code-1/cat-subject-lighting-score)
 
 ### 2. Background Cleanliness and Distraction Level
 Does the viewer's eye go to the cat, or does it wander? This sub-function scores whether the visual territory behind and around the cat is calm enough to let the subject stand out. A background does not need to be empty or blurred — it simply needs to not compete. It penalizes visually noisy, cluttered, or chaotic backgrounds and rewards settings where the cat is the clear focal point, regardless of location.
 
-- Sub-function: [{{ .Task1 }}](https://github.com/{{ .Owner }}/{{ .Task1 }})
+- Sub-function: [cat-background-calm-score](https://github.com/ObjectiveAI-claude-code-1/cat-background-calm-score)
 
 ### 3. Overall Harmony Between Subject and Setting
 Does the photograph feel like a place where a cat can be seen and appreciated? This sub-function is the most holistic evaluation. It steps back from individual dimensions and scores whether light and environment work *together* to create a coherent, inviting visual experience. It captures the emergent quality that arises when elements cooperate — or the tension when they conflict. A photograph where both lighting and background are merely adequate but work in concert should outscore one where a single dimension excels while the other undermines it.
 
-- Sub-function: [{{ .Task2 }}](https://github.com/{{ .Owner }}/{{ .Task2 }})
+- Sub-function: [cat-setting-harmony](https://github.com/ObjectiveAI-claude-code-1/cat-setting-harmony)
 
 ## Use Cases
 
