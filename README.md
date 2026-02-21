@@ -20,19 +20,19 @@ The score rests on three essential qualities. Each examines a different dimensio
 
 ### 1. Lighting Effectiveness on the Subject
 
-[{{ .Task0 }}](https://github.com/{{ .Owner }}/{{ .Task0 }})
+[rate-cat-photo-lighting](https://github.com/ObjectiveAI-claude-code-1/rate-cat-photo-lighting)
 
 Evaluates how effectively the lighting reveals the cat. Scores how well the light allows the viewer to clearly see the cat's face, fur texture, and body form without straining. Penalizes harsh overexposure that washes out detail, deep shadows that swallow the cat into darkness, and distracting artifacts like extreme glare or unnatural color casts. The standard is functional lighting — light that works for the cat by making it visible and appreciable. Studio-perfect lighting is not required; soft window light, overcast sky glow, or warm ambient room light all qualify as effective if they reveal the cat clearly.
 
 ### 2. Background Cleanliness and Distraction Level
 
-[{{ .Task1 }}](https://github.com/{{ .Owner }}/{{ .Task1 }})
+[cat-background-cleanliness](https://github.com/ObjectiveAI-claude-code-1/cat-background-cleanliness)
 
 Evaluates how clean and non-distracting the background and surrounding space are in relation to the cat. Scores whether the cat stands out clearly as the subject or is lost in a visual crowd of competing elements. Penalizes scattered objects, bold patterns, bright signage, other animals, or a general tangle of visual information that fractures the viewer's focus. The background does not need to be empty or sterile — a bookshelf, a garden, or a kitchen counter can serve well — but it must remain visually secondary to the cat, respecting the subject's role as the center of attention.
 
 ### 3. Overall Harmony Between Subject and Setting
 
-[{{ .Task2 }}](https://github.com/{{ .Owner }}/{{ .Task2 }})
+[cat-visual-harmony](https://github.com/ObjectiveAI-claude-code-1/cat-visual-harmony)
 
 Evaluates the overall harmony between the cat, the light, and the surrounding environment as a unified visual experience. Scores whether the photograph feels settled, coherent, and inviting as a whole — whether the cat appears to exist comfortably within its visual world. Penalizes jarring mismatches between the subject and its setting, such as a warmly colored cat under cold and clinical light, or a calm subject in a visually chaotic space. Harmony does not require beauty or prestige — a humble room with consistent gentle light can radiate harmony — but it requires that the visual elements feel unified in their service to the cat.
 
