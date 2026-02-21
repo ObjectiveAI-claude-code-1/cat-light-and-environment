@@ -22,7 +22,7 @@ The function evaluates three distinct dimensions of the visual stage that a phot
 
 ### 1. Lighting Effectiveness on the Subject
 
-> Sub-function: [{{ .Task0 }}](https://github.com/{{ .Owner }}/{{ .Task0 }})
+> Sub-function: [cat-light-revelation](https://github.com/ObjectiveAI-claude-code-1/cat-light-revelation)
 
 Does the light reveal the cat? This dimension assesses whether the cat's form, features, and texture — fur, ears, eyes, body contour — are clearly visible and legible to the viewer. The standard is *functional revelation*: the light does not need to be perfect or dramatic, but it must do enough work that the viewer can perceive the cat without effort or strain.
 
@@ -32,7 +32,7 @@ Does the light reveal the cat? This dimension assesses whether the cat's form, f
 
 ### 2. Background Cleanliness and Distraction Level
 
-> Sub-function: [{{ .Task1 }}](https://github.com/{{ .Owner }}/{{ .Task1 }})
+> Sub-function: [rate-cat-photo-background](https://github.com/ObjectiveAI-claude-code-1/rate-cat-photo-background)
 
 Does the background defer to the cat? This dimension shifts attention to everything in the photograph that is *not* the cat and assesses whether the surrounding environment recedes gracefully behind the subject or surges forward to compete with it. A clean background is not necessarily empty — it simply must not fragment the viewer's attention.
 
@@ -42,7 +42,7 @@ Does the background defer to the cat? This dimension shifts attention to everyth
 
 ### 3. Overall Harmony Between Cat and Environment
 
-> Sub-function: [{{ .Task2 }}](https://github.com/{{ .Owner }}/{{ .Task2 }})
+> Sub-function: [cat-scene-harmony](https://github.com/ObjectiveAI-claude-code-1/cat-scene-harmony)
 
 Does the photograph feel like a coherent, unified scene? This holistic dimension captures what the first two cannot capture alone — the *feeling* of the photograph as a whole. It evaluates whether light, textures, colors, and spatial relationships converge to make the cat feel naturally at home in its setting, or whether the scene feels disjointed despite its individual parts being adequate.
 
