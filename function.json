@@ -1,0 +1,52 @@
+{
+  "type": "scalar.function",
+  "input_schema": {
+    "type": "image",
+    "description": "A cat photograph to evaluate for light and environment — whether the lighting reveals the cat effectively and the background supports the subject without distraction."
+  },
+  "tasks": [
+    {
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for lighting effectiveness — whether the light reveals the cat's features, texture, and form clearly without overexposure, deep shadow, glare, or unnatural color casts."
+      },
+      "skip": null,
+      "input": {
+        "$jmespath": "input"
+      },
+      "output": {
+        "$jmespath": "output"
+      }
+    },
+    {
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for background cleanliness and distraction level — whether the surrounding space supports the cat as the subject or competes with it through clutter, visual noise, or attention-grabbing elements."
+      },
+      "skip": null,
+      "input": {
+        "$jmespath": "input"
+      },
+      "output": {
+        "$jmespath": "output"
+      }
+    },
+    {
+      "type": "placeholder.scalar.function",
+      "input_schema": {
+        "type": "image",
+        "description": "A cat photograph to evaluate for overall harmony — whether light, space, color, and subject feel unified in one coherent image where the cat belongs naturally as the focal point."
+      },
+      "skip": null,
+      "input": {
+        "$jmespath": "input"
+      },
+      "output": {
+        "$jmespath": "output"
+      }
+    }
+  ],
+  "description": "Scores how well a cat photograph's lighting and environment support the cat as a subject. Evaluates lighting effectiveness on the cat's features, background cleanliness and distraction level, and the overall harmony between the cat and its visual surroundings. Rewards clarity and coherence over beauty or prestige."
+}
